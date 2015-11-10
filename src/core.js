@@ -1,6 +1,6 @@
 import {List, Map} from 'immutable';
 
-expect function setEntries(state, entries) {
+export function setEntries(state, entries) {
   return state.set('entries', List(entries));
 }
 
