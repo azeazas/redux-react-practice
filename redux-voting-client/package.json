@@ -33,7 +33,8 @@
     "react": "^0.14.2",
     "react-addons-pure-render-mixin": "^0.14.2",
     "react-dom": "^0.14.2",
-    "react-router": "^1.0.0-rc3"
+    "react-router": "^1.0.0-rc3",
+    "redux": "^3.0.4"
   },
   "directories": {
     "test": "test"
