@@ -1,7 +1,6 @@
 {
   "name": "redux-voting-client",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
@@ -33,5 +32,9 @@
     "immutable": "^3.7.5",
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }

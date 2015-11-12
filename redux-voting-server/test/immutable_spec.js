@@ -30,7 +30,7 @@ describe('immutability', () => {
         '28 Days Later',
         'Sunshine'
       ));
-      expect(state).to.equal.(List.of(
+      expect(state).to.equal(List.of(
         'Trainspotting',
         '28 Days Later'
       ));
